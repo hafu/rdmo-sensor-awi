@@ -11,6 +11,8 @@ class SensorAWIProvider(Provider):
 
     search = True
 
+    refresh = True
+
     API_MAX_HITS = 10
     API_BASE_URL = f'https://sensor.awi.de/rest/search/sensor?hits={API_MAX_HITS}&q='
 
@@ -28,7 +30,7 @@ class SensorAWIProvider(Provider):
         for data_set in json_data["records"]:
             results.append(
                 {
-                    'id': data_set['id'],
+                    'id': data_set['uniqueId'],
                     'text': data_set['title']
                 }
             )

@@ -28,4 +28,11 @@ OPTIONSET_PROVIDERS = [
     ('awisensors', _('AWI Sensors'), 'sensor_awi.providers.SensorAWIProvider'),
 ]
 ```
+
+Add the plugin to the `INSTALLED_APPS` in `config/settings/local.py`, so that [Django Signals](https://docs.djangoproject.com/en/4.2/topics/signals/) get loaded:
+
+```python
+INSTALLED_APPS = ['sensor_awi'] + INSTALLED_APPS
+```
+
 After restarting RDMO, the `Sensor AWI` should be selectable as a provider option for option sets.

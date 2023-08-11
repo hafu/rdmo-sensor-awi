@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2023-08-11T14:26:40.653929+02:00">
+	<catalog dc:uri="http://rdmo-dev.local/terms/questions/sensor-awi-test">
+		<uri_prefix>http://rdmo-dev.local/terms</uri_prefix>
+		<key>sensor-awi-test</key>
+		<dc:comment>Example Catalog to use the Sensor AWI Optionset Plugin</dc:comment>
+		<order>0</order>
+		<title lang="en">Sensor AWI Test</title>
+		<help lang="en"/>
+		<title lang="de">Sensor AWI Test</title>
+		<help lang="de"/>
+	</catalog>
+	<section dc:uri="http://rdmo-dev.local/terms/questions/sensor-awi-test/instrument">
+		<uri_prefix>http://rdmo-dev.local/terms</uri_prefix>
+		<key>instrument</key>
+		<path>sensor-awi-test/instrument</path>
+		<dc:comment/>
+		<catalog dc:uri="http://rdmo-dev.local/terms/questions/sensor-awi-test"/>
+		<order>0</order>
+		<title lang="en">Instrument</title>
+		<title lang="de">Instrument</title>
+	</section>
+	<questionset dc:uri="http://rdmo-dev.local/terms/questions/sensor-awi-test/instrument/instrument">
+		<uri_prefix>http://rdmo-dev.local/terms</uri_prefix>
+		<key>instrument</key>
+		<path>sensor-awi-test/instrument/instrument</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="http://rdmo-dev.local/terms/questions/sensor-awi-test/instrument"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en">Instrument</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Intrument</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="http://rdmo-dev.local/terms/questions/sensor-awi-test/instrument/instrument/sensor-search">
+		<uri_prefix>http://rdmo-dev.local/terms</uri_prefix>
+		<key>sensor-search</key>
+		<path>sensor-awi-test/instrument/instrument/sensor-search</path>
+		<dc:comment/>
+		<attribute dc:uri="http://rdmo-dev.local/terms/domain/sensor/awi/search"/>
+		<questionset dc:uri="http://rdmo-dev.local/terms/questions/sensor-awi-test/instrument/instrument"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Type to search for sensor</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Tippen um nach Sensoren zu Suchen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>autocomplete</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="http://rdmo-dev.local/terms/options/awi-sensors"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="http://rdmo-dev.local/terms/questions/sensor-awi-test/instrument/instrument/type-name">
+		<uri_prefix>http://rdmo-dev.local/terms</uri_prefix>
+		<key>type-name</key>
+		<path>sensor-awi-test/instrument/instrument/type-name</path>
+		<dc:comment/>
+		<attribute dc:uri="http://rdmo-dev.local/terms/domain/sensor/awi/type-name"/>
+		<questionset dc:uri="http://rdmo-dev.local/terms/questions/sensor-awi-test/instrument/instrument"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Type Name</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Typ Name</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="http://rdmo-dev.local/terms/questions/sensor-awi-test/instrument/instrument/name">
+		<uri_prefix>http://rdmo-dev.local/terms</uri_prefix>
+		<key>name</key>
+		<path>sensor-awi-test/instrument/instrument/name</path>
+		<dc:comment/>
+		<attribute dc:uri="http://rdmo-dev.local/terms/domain/sensor/awi/name"/>
+		<questionset dc:uri="http://rdmo-dev.local/terms/questions/sensor-awi-test/instrument/instrument"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Name</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Name</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="http://rdmo-dev.local/terms/questions/sensor-awi-test/instrument/instrument/serial">
+		<uri_prefix>http://rdmo-dev.local/terms</uri_prefix>
+		<key>serial</key>
+		<path>sensor-awi-test/instrument/instrument/serial</path>
+		<dc:comment/>
+		<attribute dc:uri="http://rdmo-dev.local/terms/domain/sensor/awi/serial"/>
+		<questionset dc:uri="http://rdmo-dev.local/terms/questions/sensor-awi-test/instrument/instrument"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Serial</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Seriennummer</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+</rdmo>

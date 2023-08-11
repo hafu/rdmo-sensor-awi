@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2023-08-11T14:00:13.420177+02:00">
+	<attribute dc:uri="http://rdmo-dev.local/terms/domain/sensor">
+		<uri_prefix>http://rdmo-dev.local/terms</uri_prefix>
+		<key>sensor</key>
+		<path>sensor</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="http://rdmo-dev.local/terms/domain/sensor/awi">
+		<uri_prefix>http://rdmo-dev.local/terms</uri_prefix>
+		<key>awi</key>
+		<path>sensor/awi</path>
+		<dc:comment/>
+		<parent dc:uri="http://rdmo-dev.local/terms/domain/sensor"/>
+	</attribute>
+	<attribute dc:uri="http://rdmo-dev.local/terms/domain/sensor/awi/search">
+		<uri_prefix>http://rdmo-dev.local/terms</uri_prefix>
+		<key>search</key>
+		<path>sensor/awi/search</path>
+		<dc:comment/>
+		<parent dc:uri="http://rdmo-dev.local/terms/domain/sensor/awi"/>
+	</attribute>
+	<attribute dc:uri="http://rdmo-dev.local/terms/domain/sensor/awi/type-name">
+		<uri_prefix>http://rdmo-dev.local/terms</uri_prefix>
+		<key>type-name</key>
+		<path>sensor/awi/type-name</path>
+		<dc:comment/>
+		<parent dc:uri="http://rdmo-dev.local/terms/domain/sensor/awi"/>
+	</attribute>
+	<attribute dc:uri="http://rdmo-dev.local/terms/domain/sensor/awi/serial">
+		<uri_prefix>http://rdmo-dev.local/terms</uri_prefix>
+		<key>serial</key>
+		<path>sensor/awi/serial</path>
+		<dc:comment/>
+		<parent dc:uri="http://rdmo-dev.local/terms/domain/sensor/awi"/>
+	</attribute>
+	<attribute dc:uri="http://rdmo-dev.local/terms/domain/sensor/awi/name">
+		<uri_prefix>http://rdmo-dev.local/terms</uri_prefix>
+		<key>name</key>
+		<path>sensor/awi/name</path>
+		<dc:comment/>
+		<parent dc:uri="http://rdmo-dev.local/terms/domain/sensor/awi"/>
+	</attribute>
+</rdmo>
